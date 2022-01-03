@@ -17,8 +17,10 @@ const ProductDetail = () => {
         .get(`https://fakestoreapi.com/products/${productID}`)
         .catch((err)=>{
             console.log("err",err)
+
         });
-dispatch(selectedProduct(response.data));
+
+        dispatch(selectedProduct(response.data));
     }
 
     useEffect(() => {
