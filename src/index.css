@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ h2:hover{
+color: royalblue;
+}
+
+.nav-link:hover{
+  color: red !important;
+}
+.navbar-nav{
+  float: right !important;
+
+}
+#img1id{
+  float: center;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important ;
+}
+.col-md-12{
+  margin: 50px;
+}
+
+@keyframes up-down{
+0%{
+  transform: translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+}
+}
+
+h3:hover{
+  color: rgb(255, 127, 255);
+}
+
+h4:hover{
+  color: rgb(255, 127, 255);
+}
+
+#card{
+  display: flex !important;
+}
